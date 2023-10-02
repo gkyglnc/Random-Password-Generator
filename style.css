@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #1a1a1a ;
+    color: #fff;
+    background-image: linear-gradient(to right top, #000000, #060606, #0b0b0b, #101010, #141414);
+}
+
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    
+}
+
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span{
+    color: #01609f;
+    border-bottom: 4px solid #01609f;
+    padding-bottom: 7px;
+}
+
+.bi-copy{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+
+}
+
+.bi-gear{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.container button{
+    border: 0;
+    outline: 0;
+    background: #01609f;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-gnrt:hover{
+    -webkit-box-shadow: 0px 3px 27px -1px rgba(5,87,250,1);
+    -moz-box-shadow: 0px 3px 27px -1px rgba(5,87,250,1);
+    box-shadow: 0px 3px 27px -1px rgba(5,87,250,1);
+    transition: 0.5s;
+
+}
